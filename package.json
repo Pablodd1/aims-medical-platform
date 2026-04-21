@@ -1,0 +1,19 @@
+{
+  "name": "aims-medical-platform",
+  "version": "2.0.0",
+  "description": "AIMS Medical Assessment Platform",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "@supabase/supabase-js": "^2.38.0",
+    "chart.js": "^4.4.0",
+    "react-chartjs-2": "^5.2.0"
+  }
+}
