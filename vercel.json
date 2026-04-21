@@ -1,20 +1,11 @@
 {
   "version": 2,
-  "name": "aims-medical-platform",
-  "builds": [
+  "buildCommand": "react-scripts build",
+  "outputDirectory": "build",
+  "rewrites": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "env": {
-    "REACT_APP_SUPABASE_URL": "https://vodhhauwowkalvaxzqyv.supabase.co",
-    "REACT_APP_SUPABASE_ANON_KEY": "@supabase-anon-key"
-  }
+  ]
 }
