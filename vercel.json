@@ -1,11 +1,6 @@
 {
-  "version": 2,
-  "buildCommand": "react-scripts build",
+  "framework": null,
+  "buildCommand": "npm install && react-scripts build",
   "outputDirectory": "build",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "rewrites": [{"source": "/(.*)", "destination": "/index.html"}]
 }
